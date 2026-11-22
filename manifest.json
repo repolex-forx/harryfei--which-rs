@@ -30,6 +30,54 @@
       ],
       "ast": [
         "aggregate/ast/5bb3e82a82a6ef8f56a3a455125680fd6579c7ca/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5bb3e82a82a6ef8f56a3a455125680fd6579c7ca.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "regex",
+          "ecosystem": "CARGO",
+          "version": "1.10.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "regex",
+          "githubCommit": "5f1f1c8b6db4d1fd373ef1ab4eab05a8f66c4235",
+          "githubTag": "1.10.2",
+          "githubUrl": "https://github.com/rust-lang/regex",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1.40",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "15600a3a67c418f53cb80ff21da57d89a5de0486",
+          "githubTag": "tracing-0.1.40",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3.9.0",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubCommit": "fb313e01bc9568137c3e873db9ea267b93c22184",
+          "githubTag": "v3.9.0",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.182",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "e879ee90b6cd8f79b352d4d4d1f8ca05f94f2f53",
+          "githubTag": "0.2.182",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.182/src/unix/mod.rs"
+        }
       ]
     }
   ],
