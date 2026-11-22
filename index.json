@@ -1,0 +1,11 @@
+{
+  "org": "harryfei",
+  "repo": "which-rs",
+  "versions": [
+    {
+      "commit": "5bb3e82a82a6ef8f56a3a455125680fd6579c7ca",
+      "tag": "8.0.2",
+      "parsed_at": "2026-11-22T10:03:17.429391+00:00"
+    }
+  ]
+}
